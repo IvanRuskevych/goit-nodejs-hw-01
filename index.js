@@ -34,7 +34,7 @@ async function invokeAction({ action, id, name, email, phone }) {
         : console.log(`There is no contact with id: "${id}" in the list`.red);
 
     default:
-      return console.log('Enter correct otions'.bgBlue);
+      return console.log('Enter correct options'.bgBlue);
   }
 }
 
